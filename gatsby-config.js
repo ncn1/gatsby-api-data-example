@@ -8,12 +8,12 @@ module.exports = {
   /* Your site config here */
   plugins: [
     {
-      resolve: "gatsby-source-custom-api",
+      resolve: `gatsby-source-custom-api`,
       options: {
-        url: "https://swapi.dev/api/people/1/",
-        rootkey: "posts",
+        url: `http://swapi.dev/api/people/1/`,
+        /*rootkey: `customApi`,
         schemas: {
-          posts:`
+          customApi:`
              name: String,
              height: Int,
              mass: Int,
@@ -31,7 +31,7 @@ module.exports = {
              edited: String,
              url: String
           `
-        }
+        }*/
       }
     }
   ]
