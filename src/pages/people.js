@@ -13,6 +13,7 @@ const People = ({ data }) => {
         })
     };
     return <>
+        <h1>Star Wars Characters</h1>
         {peopleList()}
         </>
 };
